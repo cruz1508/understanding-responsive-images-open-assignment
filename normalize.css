@@ -89,7 +89,7 @@ template {
 
 /* Links
    ========================================================================== */
-
+s
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -209,12 +209,10 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 
-figure {
+.figure-grp {
   /*margin: 1em 40px;*/
   display: grid;
-  grid-template-columns: 1 1;
-  
-  
+  grid-template-columns: auto auto;
 }
 
 /**
